@@ -11,3 +11,25 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.carousel{
+  width: 100%;
+ 
+}
+.carousel_box{
+/* width:100%; */
+height:80vh!important;
+background-size: cover;
+position: relative;
+opacity: 0.9;
+
+}
+.carousel_box p{
+  margin:0 auto;
+  position: absolute;
+  top:100%;
+  left:50%;
+transform:translate(-50%, -80%);
+font-size:1.3em;
+
+background-color:rgba(128, 128, 128, 0);
+padding:1em;}
